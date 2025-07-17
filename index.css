@@ -1,0 +1,83 @@
+body {
+  background-color: azure;
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#furn-emp {
+  margin-left: 15px;
+  color: darkslategrey;
+  margin-bottom: 20px;
+}
+
+.para-top {
+  margin-top: -20px;
+}
+
+.para-space {
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.products {
+  background-color: rgba(67, 125, 133, 0.507);
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 1250px;
+}
+
+.product-name {
+  padding: 20px;
+  color: rgb(0, 0, 83);
+}
+
+.product-descrip {
+  color: rgb(0, 0, 83);
+  text-wrap: balance;
+}
+
+.prices {
+  margin-left: 20px;
+  margin-top: -10px;
+  font-size: 20px;
+  color: rgb(48, 129, 83);
+  font-weight: bold;
+}
+
+.slashed-prices {
+  font-size: 15px;
+  margin-left: 10px;
+  color: rgb(58, 58, 58);
+  font-weight: normal;
+}
+
+.cart-button {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: -10px;
+  padding: 15px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: medium;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  background-color: rgb(48, 129, 83);
+}
